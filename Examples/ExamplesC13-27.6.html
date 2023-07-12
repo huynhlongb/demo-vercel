@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMPLE-C13-BOXES</title>
+</head>
+<style>
+/*div.box {
+height: 300px;
+width: 300px;
+background-color: #bbbbaa;}
+p {
+height: 75%;
+width: 75%;
+background-color: #0088dd;}
+td.description{
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+ p{
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+h2{
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+}
+p{
+    min-height: 10px;
+    max-height: 30px;
+}*/
+
+/*h2 {
+color: #0088dd;
+border-bottom: 1px solid #0088dd;}
+p.one {
+overflow: hidden;}
+p.two {
+overflow: scroll;}
+p.one {
+border-width: 2px;}
+p.two {
+border-width: thick;}
+p.three {
+border-width: 1px 4px 12px 4px;}
+body {
+text-align: center;}
+p {
+width: 300px;
+padding: 50px;
+border: 20px solid #0088dd;}
+p.example {
+margin: 10px auto 10px auto;
+text-align: left;}
+p.rounded{
+    border: 5px solid #cccccc;
+    padding: 20px;
+    width: 275px;
+    text-align: center;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+p.one {
+border-top-left-radius: 80px 50px;
+-moz-border-radius-top-left: 80px 50px;
+-webkit-border-radius-top-left: 80px 50px;
+border-color: blueviolet;}
+
+p.two {
+border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+-moz-border-radius: 1em 4em 1em 4em
+ / 2em 1em 2em 1em;
+-webkit-border-radius: 1em 4em 1em 4em
+ / 2em 1em 2em 1em;
+border-color: blueviolet;}
+
+p.three {
+padding: 0px;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border-color: blueviolet;}*/
+body{
+    font-size: 80%;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.15em;
+    background-color: #efefef;}
+#page{
+    border: 4px double black;
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000000;
+    background-color: #ffffff;
+}
+#logo{
+    width: 150px;
+    margin: 15px auto 25px auto;
+
+}
+ul{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+li{
+    margin: 0px 3px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.on{
+    color: orangered;
+}
+p{
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+
+
+    </style>
+<body>
+    <div id="page">
+        <div id="logo">
+        <img src="image/l" alt="The analog specialists"/></div>
+   
+        <ul id = "nav">
+            <li><a href="#" class="on">HOME</a></li>
+            <li><a href="#">FOR SALE</a> </li>
+            <li><a href="#">REPAIRS</a> </li>
+            <li><a href="#">ABOUT</a> </li>
+            <li><a href="#">CONTACT</a> </li>
+        </ul>
+        <p>
+            <img src="image/home.jpg" alt="Fender Rhodes, Hohner Clavinet,
+            and Wurlitzer EP200">
+        </p>
+        <p>We specialise in the sales and repair of classic keyboards, in particular
+            the Fender Rhodes, Wurlitzer EP200, and Hohner Clavinet.</p> 
+        </div>
+    <!--<div>
+        <p>The Moog company pioneered the commercial
+         manufacture of modular voltage-controlled
+         analog synthesizer systems in the early
+         1950s.</p>
+        </div>
+    <table>
+        <tr>
+        <th>Photo</th>
+        <th>description</th>
+        <th>Price</th>
+    </tr>
+        <tr>
+        <td><img src="image/piano.jpg" width="200"
+        height="100" alt="Fender Rhodes" /></td>
+        <td class="description">The Rhodes piano is an
+        electro-mechanical piano, invented by Harold
+        Rhodes during the fifties and later
+        manufactured in a number of models ...</td>
+        <td>$1400</td>
+        </tr> 
+    </table>
+    <h2>Fender Mustang</h2>
+    <p>The Fender Mustang was introduced in 1964 as the
+     basis of a major redesign of Fender's ...</p>
+    <h2>Fender Stratocaster</h2>
+    <p>The Fender Stratocaster or "Strat" is one of the
+     most popular electric guitars of all time ...</p>
+    <h2>Gibson Les Paul</h2>
+    <p>The Gibson Les Paul is a solid body electric
+     guitar that was first sold in 1952 ...</p>-->
+     <!--<h2>Fender Stratocaster</h2>
+     <p class="one">The Fender Stratocaster or "Strat"
+      is one of the most popular electric guitars of
+      all time, and its design has been copied by many
+      guitar makers. It was designed by Leo... </p>
+     <h2>Gibson Les Paul</h2>
+     <p class="two">The Gibson Les Paul is a solid body
+      electric guitar that was first sold in 1952.
+      The Les Paul was designed by Ted McCarty...................................................................................
+    ...................................................
+.....................................
+................. </p>
+    <p class="one">Hohner's "Clavinet" is essentially an
+    electric clavichord.</p>
+   <p class="two">Hohner's "Clavinet" is essentially an
+    electric clavichord.</p>
+   <p class="three">Hohner's "Clavinet" is essentially
+    an electric clavichord.</p>
+    <p>Analog synthesizers are often said to have a
+        "warmer" sound than their digital
+        counterparts.</p>
+       <p class="example">Analog synthesizers are often
+        said to have a "warmer" sound than their
+        digital counterparts.</p> 
+    <p class="rounded">Pet Sounds featured a number of unconventional
+            instruments such as bicycle bells, buzzing
+            organs, harpsichords, flutes, Electro-Theremin,
+            dog whistles, trains, Hawaiian-sounding string
+            instruments, Coca-Cola cans and barking dogs.</p>
+            <p class="one"></p>
+            <p class="two"></p>
+            <p class="three"></p>  -->
+
+</body>
+</html>
